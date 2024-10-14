@@ -1,0 +1,122 @@
+# Compiled class files
+**/*.class
+
+# Log files
+**/*.log
+
+# BlueJ files
+**/*.ctxt
+
+# Mobile Tools for Java (J2ME)
+**/.mtj.tmp/
+
+# Package Files
+**/*.jar
+**/*.war
+**/*.nar
+**/*.ear
+**/*.zip
+**/*.tar.gz
+**/*.rar
+
+# virtual machine crash logs
+**/hs_err_pid*
+
+# Maven
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+**/buildNumber.properties
+**/.mvn/timing.properties
+**/.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+**/.idea/
+**/*.iws
+**/*.iml
+**/*.ipr
+
+# Eclipse
+**/.classpath
+**/.project
+**/.settings/
+
+# NetBeans
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+# VS Code
+**/.vscode/
+
+# Spring Boot
+**/spring-boot-starter/
+**/application*.yml
+**/application*.properties
+
+# OS generated files
+**/.DS_Store
+**/.DS_Store?
+**/._*
+**/.Spotlight-V100
+**/.Trashes
+**/ehthumbs.db
+**/Thumbs.db
+
+# Temporary files
+**/*.tmp
+**/*.bak
+**/*.swp
+**/*~.nib
+
+# Specific to your project structure
+**/bank-account-service/target/
+**/config-service/target/
+**/discovery-service/target/
+**/gateway/target/
+**/demo-spring-cloud-streams-kafka/target/
+
+# Ignore all files in target directories
+**/target/**
+
+# But keep the directory
+!**/target/.gitkeep
+
+# Ignore generated sources
+**/generated-sources/
+**/generated-test-sources/
+
+# Ignore Maven build info
+**/maven-archiver/
+**/maven-status/
+
+# Ignore test reports
+**/surefire-reports/
+
+# Ignore wrapper files
+**/.mvn/wrapper/
+
+# Kafka
+**/*.kafka
+
+# Ignore all .properties files in resource directories
+**/src/main/resources/*.properties
+
+# But allow tracking of application.properties (if needed)
+!**/src/main/resources/application.properties
+
+# Ignore all in static and templates directories
+**/src/main/resources/static/**
+**/src/main/resources/templates/**
+
+# Ignore test classes
+**/test-classes/
+
+# GraphQL
+**/src/main/resources/graphql/**
